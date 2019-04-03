@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300");
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.product-index {
+  margin: 5%;
+}
+
+.locale-control {
+  border: none;
+  background-color: #fff;
+  text-align-last: center;
+}
+
+.locale-control:focus {
+  outline: 0;
+  border: none;
+  box-shadow: 0;
+}
+
+.hero-image {
+  height: 60vh;
+  min-height: 35em;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.slider-carousel {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.individual-carousel-container {
+  margin: 0 auto;
+}
+
+.individual-carousel {
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  z-index: 10;
+}
+
+.section > :not(.header) {
+  padding: 10px 0;
+}
+
+.section > :not(.hero-image):not(.header) {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0.5em 0;
+}
+
+.set-of-two .paragraph-with-headline {
+  text-align: left !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
